@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TRAVELER - Free Travel Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light pt-3 d-none d-lg-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <p><i class="fa fa-envelope mr-2"></i>tourofcolombia@gmail.com</p>
+                        <p class="text-body px-3">|</p>
+                        <p><i class="fa fa-phone-alt mr-2"></i>+57 123 456 7890</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-primary px-3" href="https://x.com/tourofcolombia">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-primary px-3" href="https://www.instagram.com/tourofcolombia/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="text-primary pl-3" href="https://www.youtube.com/@tourofcolombia">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-light navbar-light shadow-lg py-3 py-lg-0 pl-3 pl-lg-5">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 text-primary"><span class="text-primary-1">COL</span>OM<span class="text-primary-2">BIA</span></h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Inicio</a>
+                        <a href="#lugares" class="nav-item nav-link">Lugares turísticos</a>
+                        <a href="#historia" class="nav-item nav-link">Historia</a>
+                        <a href="#culture" class="nav-item nav-link">Cultura</a>
+                        <a href="#comida" class="nav-item nav-link">Gastronomía</a>
+                        <a href="#contacto" class="nav-item nav-link">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0">
+        <div id="header-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/Mount_Alice_and_Temple_Crag_in_the_Sierra_Nevada_(U.S.).jpg" alt="Sierra nevada">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3"><span class="text-primary-1">Tour</span> <span class="text-primary-3">Of</span> <span class="text-primary-2">Colombia</span></h4>
+                            <h1 class="display-3 text-white mb-md-4">Diversidad Sin Límites</h1>
+                            <a href="#lugares" class="btn btn-primary py-md-3 px-md-5 mt-2"><strong>Comenzar Ahora</strong></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/departamento-amazonas-de-colombia-1.jpg" alt="Amazonia">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h4 class="text-white text-uppercase mb-md-3"><span class="text-primary-1">Tour</span> <span class="text-primary-3">Of</span> <span class="text-primary-2">Colombia</span></h4>
+                            <h1 class="display-3 text-white mb-md-4">Exploremos Lugares Asombrosos</h1>
+                            <a href="#lugares" class="btn btn-primary py-md-3 px-md-5 mt-2"><strong>Comenzar Ahora</strong></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-prev-icon mb-n2"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+                <div class="btn btn-dark" style="width: 45px; height: 45px;">
+                    <span class="carousel-control-next-icon mb-n2"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="lugares">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-lg-6" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="img/valle-de-cocora.webp" style="object-fit: cover;" alt="valle de cocora">
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 pb-lg-5">
+                    <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+                        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Sobre Colombia</h6>
+                        <h1 class="mb-3">Uno de los países más diversos del mundo.</h1>
+                        <p>Colombia, uno de los países más biodiversos del mundo, es hogar de una increíble variedad de ecosistemas. Desde selvas tropicales hasta montañas nevadas, descubre la riqueza natural que hace de este país un paraíso de biodiversidad.</p>
+                        <div class="row mb-4">
+                            <div class="col-6">
+                                <img class="img-fluid-about" src="img/catedral-de-sal.jpeg" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img class="img-fluid-about" src="img/piedra-del-penol.avif" alt="">
+                            </div>
+                        </div>
+                        <a href="places.html" class="btn btn-primary mt-1"><Strong>Ver más</Strong></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Destination Start -->
+    <div class="container-fluid py-5" id="historia">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Historia</h6>
+                <h1><span class="text-primary-1">E</span>xplora <span class="text-primary-3">N</span>uestra <span class="text-primary-2">H</span>istoria</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid-history" src="img/culturas-precolombinas.webp" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">Culturas Precolombinas</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid-history" src="img/La Conquista Española.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">La Conquista Española</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid-history" src="img/Época Colonial colombia.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">Época Colonial</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid-history" src="img/Independencia colombia.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">Independencia</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid-history" src="img/La Gran Colombia.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">La Gran Colombia</h5>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid-history" src="img/colombia moderna.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">Colombia Contemporánea</h5>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Destination Start -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5" id="culture">
+        <div class="container py-5">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Cultura</h6>
+                <h1>Cultura <span class="text-primary-1">Colo</span><span class="text-primary-3">mbi</span><span class="text-primary-2">ana</span></h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel">
+                <div class="text-center pb-4">
+                    <img class="img-fluid mx-auto" src="img/Música y danza.jpg" style="width: 100px; height: 100px;" alt="Música y danza">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">Colombia vibra al ritmo de la cumbia, vallenato y salsa, donde la danza es una expresión clave de su rica herencia cultural.</p>
+                        <h5 class="text-truncate">Música y danza</h5>
+                        <span><span class="text-primary-1">Col</span><span class="text-primary-3">om</span><span class="text-primary-2">bia</span></span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto" src="img/Literatura y arte.jpg" style="width: 100px; height: 100px;" alt="Literatura y arte">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">La literatura colombiana, con figuras como Gabriel García Márquez, y el arte, reflejan una historia llena de realismo mágico y creatividad.</p>
+                        <h5 class="text-truncate">Literatura y arte</h5>
+                        <span><span class="text-primary-1">Col</span><span class="text-primary-3">om</span><span class="text-primary-2">bia</span></span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto" src="img/Festividades.jpg" style="width: 100px; height: 100px;" alt="Festividades">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">Desde el Carnaval de Barranquilla hasta la Feria de Cali, las festividades colombianas son coloridos encuentros de música, baile y tradición.</p>
+                        <h5 class="text-truncate">Festividades</h5>
+                        <span><span class="text-primary-1">Col</span><span class="text-primary-3">om</span><span class="text-primary-2">bia</span></span>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <img class="img-fluid mx-auto" src="img/diomas y tradiciones.jpg" style="width: 100px; height: 100px;" alt="Idiomas y tradiciones">
+                    <div class="testimonial-text bg-white p-4 mt-n5">
+                        <p class="mt-5">Con el español como idioma principal y más de 60 lenguas indígenas, Colombia preserva una diversidad cultural única en sus costumbres y creencias.</p>
+                        <h5 class="text-truncate">Idiomas y tradiciones</h5>
+                        <span><span class="text-primary-1">Col</span><span class="text-primary-3">om</span><span class="text-primary-2">bia</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Packages Start -->
+    <div class="container-fluid py-5" id="comida">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Gastronomía</h6>
+                <h1>Platos <span class="text-primary-1">Típ</span><span class="text-primary-3">ic</span><span class="text-primary-2">os</span></h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/Bandeja Paisa.jpg" alt="Bandeja Paisa">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Antioquia</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="#comida">Bandeja Paisa</a>
+                            <p>Un plato abundante que incluye arroz, frijoles, chicharrón, carne molida, huevo frito, arepa, plátano maduro, aguacate y chorizo.</p>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(560)</small></h6>
+                                    <h5 class="m-0">$25,000 - $35,000</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid-food" src="img/Ajiaco Santafereño.jpg" alt="Ajiaco Santafereño">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Cundinamarca</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="#comida">Ajiaco Santafereño</a>
+                            <p>Sopa tradicional de Bogotá hecha con tres tipos de papa, pollo, maíz, alcaparras y se acompaña con arroz y aguacate.</p>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.0 <small>(370)</small></h6>
+                                    <h5 class="m-0">$10,000 - $30,000</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid-food" src="img/Sancocho.webp" alt="Sancocho">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Valle del Cauca y Costa Caribe.</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="#comida">Sancocho</a>
+                            <p>Un caldo espeso hecho con carne (res, pollo o pescado), plátano, yuca, papa, maíz, y acompañado con arroz y aguacate.</p>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.2 <small>(120)</small></h6>
+                                    <h5 class="m-0">$15,000 - $25,000</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid-food" src="img/Lechona Tolimense.jpg" alt="Lechona Tolimense">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Tolima</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="#comida">Lechona Tolimense</a>
+                            <p>Cerdo relleno de arroz, arvejas, carne de cerdo y especias, cocido lentamente, y servido con arepas y papa.</p>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.5 <small>(600)</small></h6>
+                                    <h5 class="m-0">$20,000 - $30,000</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid-food" src="img/Arepas de Huevo.jpg" alt="">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3" alt="Arepas de Huevo">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Bolívar</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="#comida">Arepas de Huevo</a>
+                            <p>Arepas fritas rellenas de huevo, un clásico de la región Caribe.</p>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.1 <small>(250)</small></h6>
+                                    <h5 class="m-0">$3,000 - $5,000</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid-food" src="img/Cazuela de Mariscos.jpg" alt="Cazuela de Mariscos">
+                        <div class="p-4">
+                            <div class="d-flex justify-content-between mb-3">
+                                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Cartagena y Santa Marta</small>
+                            </div>
+                            <a class="h5 text-decoration-none" href="#comida">Cazuela de Mariscos</a>
+                            <p>Un plato cremoso y lleno de mariscos como camarones, mejillones y pescado, cocinado con leche de coco.</p>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0"><i class="fa fa-star text-primary mr-2"></i>4.3 <small>(310)</small></h6>
+                                    <h5 class="m-0">$30,000 - $45,000</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Packages End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contacto">
+        <div class="container py-5">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Contacto</h6>
+                <h1>Hablanos</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form bg-white" style="padding: 30px;">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate" action="https://formsubmit.co/tourofcolombia@gmail.com" method="POST">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Tu Nombre"
+                                        required="required" data-validation-required-message="Por favor ingrese su nombre" name="name"/>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Tu Correo"
+                                        required="required" data-validation-required-message="Por favor ingrese su correo" name="email"/>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Asunto"
+                                    required="required" data-validation-required-message="Por favor ingrese su asunto" name="subject"/>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Mensaje"
+                                    required="required"
+                                    data-validation-required-message="Por favor ingrese su mensaje" name="message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 text-primary"><span class="text-primary-1">COL</span>OM<span class="text-primary-2">BIA</span></h1>
+                </a>
+                <p>Colombia, uno de los países más biodiversos del mundo, es hogar de una increíble variedad de ecosistemas. Desde selvas tropicales hasta montañas nevadas, descubre la riqueza natural que hace de este país un paraíso de biodiversidad.</p>
+                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-outline-primary btn-square mr-2" href="https://x.com/tourofcolombia"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-primary btn-square mr-2" href="https://www.youtube.com/@tourofcolombia"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/tourofcolombia/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Nosotros</h5>
+                <div class="d-flex flex-column justify-content-start">
+                    <a class="text-white-50 mb-2" href="#lugares"><i class="fa fa-angle-right mr-2"></i>Lugares turísticos</a>
+                    <a class="text-white-50 mb-2" href="#historia"><i class="fa fa-angle-right mr-2"></i>Historia</a>
+                    <a class="text-white-50 mb-2" href="#culture"><i class="fa fa-angle-right mr-2"></i>Cultura</a>
+                    <a class="text-white-50 mb-2" href="#comida"><i class="fa fa-angle-right mr-2"></i>Gastronomía</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contactanos</h5>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>Bogota D.C, Colombia</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+57 123 456 7890</p>
+                <p><i class="fa fa-envelope mr-2"></i>tourofcolombia@gmail.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+        <div class="row">
+            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
+                <p class="m-0 text-white-50">Copyright &copy; <a href="#">TourOfColombia</a>. All Rights Reserved.</a>
+                </p>
+            </div>
+            <div class="col-lg-6 text-center text-md-right">
+                <p class="m-0 text-white-50">Designed by <a href="https://github.com/Robertou65">Robert Hernandez</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
